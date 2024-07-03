@@ -1,0 +1,148 @@
+body{
+    background-color: white;
+}
+span{
+background-color: black;
+    font-family:  "Libre Baskerville", serif;
+    font-size: xx-large;
+    font-variant: initial;
+    color: whitesmoke;
+}
+i{
+    font-size: 70px;
+}
+li{
+    list-style-type: none;
+    padding: 25px;
+    font-family: "Libre Baskerville", serif;
+    font-size: small;
+    transition-duration: 1000s;
+    background-color: black;
+}
+ul{
+    display: flex;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    transition-duration: 3s;
+
+ 
+}
+a{
+    text-decoration-line: underline;
+    font-size: xx-small;
+    list-style-type: none;
+    padding: 25px;
+    font-family: "Libre Baskerville", serif;
+    font-size: small;
+    transition-duration: 1000s;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Libre Baskerville", serif;
+}
+li{
+    transition-duration: 5s;
+}
+li:hover{
+    border-bottom: 3px solid blue;
+    box-shadow: 10px,10px,30px blueviolet;
+   
+}
+li:active{
+    background-color: white;
+}
+:target{
+    background-color: aqua;
+    color: blue;
+    padding: 0px,10px;
+    
+}
+img{
+    height: 300px;
+    width: 360px;
+    object-fit: cover;
+    object-position: right;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-div{
+    position: absolute;
+    bottom: 660px;
+    left: 10px;
+    animation-name: Achu;
+    animation-duration: 100s;
+    
+       
+}
+
+input,button{
+    border: none;
+}
+input{
+    background-color: black;
+    outline: none;
+}
+button{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 20px;
+}
+.search-div{
+    background-color: black;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 5px;
+}
+button:active{
+    scale: 0.96;
+}
+button:hover{
+    box-shadow: 0 0 20px crimson, 0 0 20px crimson,
+}
+
+
+.Ghost{
+    background-color: gray;
+        font-family:  "Libre Baskerville", serif;
+        font-size: xx-large;
+        font-variant: initial;
+        color: black;
+        
+}
+
+.Dove{
+    background-color: gray;
+        font-family:  "Libre Baskerville", serif;
+        font-size: xx-large;
+        font-variant: initial;
+        color: black;
+        
+}
+
+.Smile{
+    background-color: gray;
+        font-family:  "Libre Baskerville", serif;
+        font-size: xx-large;
+        font-variant: initial;
+        color: black;
+        
+}
+
+.Paw{
+    background-color: gray;
+        font-family:  "Libre Baskerville", serif;
+        font-size: xx-large;
+        font-variant: initial;
+        color: black;
+        
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    margin: auto;
+}
