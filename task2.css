@@ -1,51 +1,50 @@
+section{
+    background-image: linear-gradient(to left,#6B240C,#543310,#562B08,#74512D,#6C3428);
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 850px;
+
+
+}
 .div1{
-    display: inline-flex;
+    background-image: linear-gradient(to right,rgb(63, 58, 58),black,black);
+    display: inline-block;
+    border-radius: 50px;
+    padding-left: 10px;
+    width: 300px;
+    border-style: groove;
+    border-color: black;
+}
+h1{
+    text-align: center;
+    color: #EF9C66;
+}
+img{
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    border-style: outset;
+    border-color: brown;
+    border-width: 10px;
+    
 }
 .div2{
+    background-image: linear-gradient(to left,black,black,rgb(53, 50, 50));
     display: inline-block;
+    border-radius: 50px;
+    padding-right: 10px;
+    width: 500px;
+    border-style: groove;
+    border-color: black;
+    }
+pre{
+    font-size: x-large;  
+    color: whitesmoke;
 }
-.total{
-    background-color: black;
-    background-image: url(background.jpeg);
-    margin: auto;
-    background-repeat: no-repeat ;
-    background-size: cover;
+b{
     
-    
-}
-.img1{
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 70px;
-    margin: 5px;
-    border-color: black;
-    border-style: dotted;
-}
-.img2{
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    margin: 5px;
-    border-style: dotted;
-    border-color: black;
-}
-.img3{
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    margin: 5px;
-    border-style: dotted;
-    border-color: black;
-}
-.img4{
-    border-bottom-right-radius: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 70px;
-    margin: 5px;
-    border-style: dotted;
-    border-color: black;
+    color: brown;
 }
