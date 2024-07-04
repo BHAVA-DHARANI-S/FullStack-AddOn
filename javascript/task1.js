@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function randomNumberGenerator(start,end){
     let randNum = Math.random()*end;
     while(start>randNum){
@@ -16,7 +16,7 @@ console.log(math.min([...arr]));
 console.log(math.max([...arr]));
 console.log(-3);
 
-=======
+
 function randomNumberGenerator(start,end){
     let randNum = Math.random()*end;
     while(start>randNum){
@@ -29,9 +29,9 @@ console.log( randomNumberGenerator(10,100));
 
 console.log(Math.floor(1.99))
 console.log(math.min([10,3,6,45]));
-let arr=[6,6,76,9]
+let array=[6,6,76,9]
 console.log(math.min([...arr]));
 console.log(math.max([...arr]));
 console.log(-3);
 
->>>>>>> 4e62b369e115017f82e65f03eb7bfa704c0fb3dc
+

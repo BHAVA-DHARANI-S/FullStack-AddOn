@@ -1,0 +1,54 @@
+h1{
+    color: black;
+    }
+    .d1{
+        width: 500px;
+        height: 300px;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+    .c1{ 
+        color: black;
+        width: 500px;
+        height: 500px;
+        cursor: help;
+    }
+    .d2{
+        background-color: rgb(155, 219, 233);
+        color: white;
+        width: 200px;
+        height: 200px;
+        display: grid;
+        place-content: center;
+        grid-template-columns: 1fr 2fr 3fr;
+        font-size: 30px;
+    }
+    .d3{
+        background-color: rgb(171, 171, 222);
+        color: black;
+        width: 200px;
+        height: 200px;
+        display: grid;
+        place-content: center;
+        grid-template-columns: 1fr 2fr 3fr;
+        font-size: 30px;
+    }
+    .d234{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .d4{
+        background-color: rgb(155, 219, 233);
+        color: black;
+        width: 200px;
+        height: 200px;
+        display: grid;
+        place-content: center;
+        font-size: 30px;
+        grid-template-columns: 1fr 2fr 3fr;
+    }
+    @media screen and (max-width: 400px), (min-width: 400px){
+        .d234{
+            grid-template-columns: 1fr 2fr;
+        }
+    }

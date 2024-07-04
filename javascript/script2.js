@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var age=19;
 if(20<age && age<50){
     
@@ -227,7 +227,7 @@ console.log(Math.max(...arr))
 }
 maxfind()
 
-=======
+
 var age=19;
 if(20<age && age<50){
     
@@ -319,7 +319,7 @@ for(var i=3;i<7; i++){
 
 
 var on = true;
-let count =1;
+let add =1;
  while(on){
         console.log("˖⁺‧₊˚♡˚₊‧⁺˖");
         if(count == 3){
@@ -347,16 +347,16 @@ let count =1;
     }  
 
 
-let fullName="Dharani";
-let name=[3,7,"ᵔᴗᵔ",[5,6,4[1,8,0]]];
+let fullname="Dharani";
+let value=[3,7,"ᵔᴗᵔ",[5,6,4[1,8,0]]];
 console.log(name[2])
 
-let FullName="Dharani";
-let markobj={
-    tamil:20,
-    english:30,
-    maths:"ᵔ-ᵔ",
-}
+//let fullName="Dharani";
+//let markobj={
+   // tamil:20,
+   // english:30,
+   // maths:"ᵔ-ᵔ",
+//}
 console.log(markobj.maths)
 
 
@@ -446,7 +446,7 @@ console.log(add(3,5,8,7,6))
 
 
 
-let arr=[3,7,13,17]
+let array=[3,7,13,17]
 function minfind() {
 console.log(Math.min(...arr))
 }
@@ -456,4 +456,4 @@ console.log(Math.max(...arr))
 }
 maxfind()
 
->>>>>>> 4e62b369e115017f82e65f03eb7bfa704c0fb3dc
+

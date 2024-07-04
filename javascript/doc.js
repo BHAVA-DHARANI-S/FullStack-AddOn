@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function contManupulate() {
     let elem= document.getElementById("head");
     elem.innerHTML ="<h1>Achu</h1>";
@@ -29,7 +29,6 @@ function modechange(){
     }
 }
 
-=======
 function contManupulate() {
     let elem= document.getElementById("head");
     elem.innerHTML ="<h1>Achu</h1>";
@@ -59,6 +58,4 @@ function modechange(){
          lightmode();
     }
 }
-
->>>>>>> 4e62b369e115017f82e65f03eb7bfa704c0fb3dc
 document.getElementById("name").setAttribute("id","Sad");
